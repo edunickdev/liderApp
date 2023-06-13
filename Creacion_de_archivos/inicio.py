@@ -1,5 +1,4 @@
 import pandas as pd
-import pprint
 
 from Casos.caso_1 import case_one
 from Casos.caso_2 import case_two
@@ -32,24 +31,5 @@ def create():
                 dfs[pestanas[6]] = case_four(df)
             case _:
                 break
-    # df_DA = pd.read_excel('ALDIA MAY 2023 DPS.xlsx', sheet_name=pestanas[1])
-    # df_BPH = pd.read_excel('ALDIA MAY 2023 DPS.xlsx', sheet_name=pestanas[2])
-    # df_VMC = pd.read_excel('ALDIA MAY 2023 DPS.xlsx', sheet_name=pestanas[3])
-    # df_B = pd.read_excel('ALDIA MAY 2023 DPS.xlsx', sheet_name=pestanas[4])
-    # df_IDG = pd.read_excel('ALDIA MAY 2023 DPS.xlsx', sheet_name=pestanas[5])
-    # df_BPA = pd.read_excel('ALDIA MAY 2023 DPS.xlsx', sheet_name=pestanas[6])
-    print('fin menu')
-   
     return dfs
-
-
-# import pandas as pd
-
-
-
-# # Crear un nuevo archivo Excel
-# archivo_destino = 'archivo_destino.xlsx'
-# nombre_pestaña_destino = 'nombre_pestaña_destino'
-
-
 
