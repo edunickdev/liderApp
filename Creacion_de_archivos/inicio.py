@@ -7,7 +7,7 @@ from Casos.caso_4 import case_four
 from Casos.caso_5 import case_five
 
 
-def create():
+def create(excel_file_in):
     pestanas =  ['BASE PARA NUMERICAS', 'DATA ACTUALIZADA', 'BASE PARA HABEAS', 'VTA MAT CTE', 'BASE', 'IND DE GEST', 'BASE PARA AVALADOS']
     dfs = {}
 
@@ -19,16 +19,16 @@ def create():
                 dfs[pestanas[0]] = case_one(df)
             case "DATA ACTUALIZADA":
                 dfs[pestanas[1]] = case_two(df)
+            case "BASE":
+                dfs[pestanas[4]] = case_three(df)
+            case "BASE PARA AVALADOS":
+                dfs[pestanas[6]] = case_four(df)
             case "BASE PARA HABEAS":
                 dfs[pestanas[2]] = case_five(df)
             case "VTA MAT CTE":
                 pass
-            case "BASE":
-                dfs[pestanas[4]] = case_three(df)
             case "IND DE GEST":
                 pass
-            case "BASE PARA AVALADOS":
-                dfs[pestanas[6]] = case_four(df)
             case _:
                 break
     return dfs

@@ -3,6 +3,7 @@ import pandas as pd
 
 
 def export_sheets(dataframes, file_out):
+    print('inicia el proceso de exportacion de los dataframes')
     writer = pd.ExcelWriter(file_out)
     for key, dataframe in dataframes.items():
         print(f'Proceso de exportado iniciado para { key }')
