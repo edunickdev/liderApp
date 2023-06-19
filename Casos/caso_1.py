@@ -1,15 +1,15 @@
 import pandas as pd
 
-def case_one(dataframe):
-    print('inicio caso 1')
-    seleccion_columnas_borrar = dataframe.columns[0:8]
-    seleccion_columnas_total = dataframe.columns[0:12]
-    seleccion_filas = dataframe.index
-    seleccion_total = dataframe.loc[seleccion_filas, seleccion_columnas_total]
+from compartidos.pestana_excel_class import PestanaExcel
 
-    dataframe.loc[seleccion_filas, seleccion_columnas_borrar] = ''
+def case_one(path, sheet):
+    print('inicio caso 1')
+    df = PestanaExcel(path, sheet)
+    seleccion_columnas_borrar = df.columns[0:8]
+    seleccion_columnas_total = df.columns[0:12]
+    # seleccion_total = df.loc[seleccion_filas, seleccion_columnas_total]
+
+    df.loc[:, seleccion_columnas_borrar] = ''
     
-    df = pd.DataFrame(dataframe)
-    # dataframe.to_excel(file_out, index=False, sheet_name=sheet, columns=seleccion_columnas_total)
     print('caso 1 completado')
     return df
