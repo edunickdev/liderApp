@@ -1,0 +1,104 @@
+				<html xmlns:o="urn:schemas-microsoft-com:office:office"
+				xmlns:x="urn:schemas-microsoft-com:office:excel"
+				xmlns="http://www.w3.org/TR/REC-html40">
+
+				<head>
+				<meta http-equiv=Content-Type content="text/html; charset=ISO-8859-1">
+				<meta name=ProgId content=Excel.Sheet>
+				<!--[if gte mso 9]><xml>
+				 <o:DocumentProperties>
+				  <o:LastAuthor>E-com</o:LastAuthor>
+				  <o:LastSaved>2005-01-02T07:46:23Z</o:LastSaved>
+				  <o:Version>10.2625</o:Version>
+				 </o:DocumentProperties>
+				 <o:OfficeDocumentSettings>
+				  <o:DownloadComponents/>
+				 </o:OfficeDocumentSettings>
+				</xml><![endif]-->
+				<style>
+				<!--table
+					{mso-displayed-decimal-separator:"\.";
+					mso-displayed-thousand-separator:"\,";}
+				@page
+					{margin:1.0in .75in 1.0in .75in;
+					mso-header-margin:.5in;
+					mso-footer-margin:.5in;}
+				tr
+					{mso-height-source:auto;}
+				col
+					{mso-width-source:auto;}
+				br
+					{mso-data-placement:same-cell;}
+				.style0
+					{mso-number-format:General;
+					text-align:general;
+					vertical-align:bottom;
+					white-space:nowrap;
+					mso-rotate:0;
+					mso-background-source:auto;
+					mso-pattern:auto;
+					color:windowtext;
+					font-size:10.0pt;
+					font-weight:400;
+					font-style:normal;
+					text-decoration:none;
+					font-family:Arial;
+					mso-generic-font-family:auto;
+					mso-font-charset:0;
+					border:none;
+					mso-protection:locked visible;
+					mso-style-name:Normal;
+					mso-style-id:0;}
+				td
+					{mso-style-parent:style0;
+					padding-top:1px;
+					padding-right:1px;
+					padding-left:1px;
+					mso-ignore:padding;
+					color:windowtext;
+					font-size:8.0pt;
+					font-weight:400;
+					font-style:normal;
+					text-decoration:none;
+					font-family:Arial;
+					mso-generic-font-family:auto;
+					mso-font-charset:0;
+					mso-number-format:General;
+					text-align:general;
+					vertical-align:bottom;
+					border:none;
+					mso-background-source:auto;
+					mso-pattern:auto;
+					mso-protection:locked visible;
+					white-space:nowrap;
+					mso-rotate:0;}
+				.xl24
+					{mso-style-parent:style0;
+					white-space:normal;}
+				-->
+				</style>
+				<!--[if gte mso 9]><xml>
+				 <x:ExcelWorkbook>
+				  <x:ExcelWorksheets>
+				   <x:ExcelWorksheet>
+					<x:Name>Informe</x:Name>
+					<x:WorksheetOptions>
+					 <x:Selected/>
+					 <x:ProtectContents>False</x:ProtectContents>
+					 <x:ProtectObjects>False</x:ProtectObjects>
+					 <x:ProtectScenarios>False</x:ProtectScenarios>
+					</x:WorksheetOptions>
+				   </x:ExcelWorksheet>
+				  </x:ExcelWorksheets>
+				  <x:WindowHeight>10005</x:WindowHeight>
+				  <x:WindowWidth>10005</x:WindowWidth>
+				  <x:WindowTopX>120</x:WindowTopX>
+				  <x:WindowTopY>135</x:WindowTopY>
+				  <x:ProtectStructure>False</x:ProtectStructure>
+				  <x:ProtectWindows>False</x:ProtectWindows>
+				 </x:ExcelWorkbook>
+				</xml><![endif]-->
+				</head>
+
+				<body link=blue vlink=purple>
+				<table x:str border=0 cellpadding=0 cellspacing=0 style='border-collapse: collapse;table-layout:fixed;'><tr><td><a  id='ttip_visprog' href='#'  onMouseOver='ttip(this);'>Region</a><div class='tooltip-seg'>Region</div></td><td><a  id='ttip_visprog' href='#'  onMouseOver='ttip(this);'>Empresa</a><div class='tooltip-seg'>Empresa</div></td><td><a  id='ttip_visprog' href='#'  onMouseOver='ttip(this);'>Ruta</a><div class='tooltip-seg'>Ruta</div></td><td><a  id='ttip_visprog' href='#'  onMouseOver='ttip(this);'>Vendedor</a><div class='tooltip-seg'>Vendedor</div></td><td><a  id='ttip_visprog' href='#'  onMouseOver='ttip(this);'>Clientes</a><div class='tooltip-seg'>Clientes unicos del rutero</div></td><td><a  id='ttip_visprog' href='#'  onMouseOver='ttip(this);'>Total Clientes</a><div class='tooltip-seg'>Clientes unicos del rutero sin frecuencia</div></td><td><a  id='ttip_visprog' href='#'  onMouseOver='ttip(this);'>Frecuencia</a><div class='tooltip-seg'>Promedio de frecuencia de visita</div></td><td><a  id='ttip_visprog' href='#'  onMouseOver='ttip(this);'>Visit. Prog.</a><div class='tooltip-seg'>Cantidad de clientes a visitar del rutero</div></td><td><a  id='ttip_visprog' href='#'  onMouseOver='ttip(this);'>Visit. Realizadas</a><div class='tooltip-seg'>Visit. Realizadas</div></td><td><a  id='ttip_visprog' href='#'  onMouseOver='ttip(this);'>Visit. Extraruta</a><div class='tooltip-seg'>Visit. Extraruta</div></td><td><a  id='ttip_visprog' href='#'  onMouseOver='ttip(this);'>Visit. Efectivas</a><div class='tooltip-seg'>Visit. Efectivas</div></td><td><a  id='ttip_visprog' href='#'  onMouseOver='ttip(this);'>% Eficiencia</a><div class='tooltip-seg'>(visitas_realizadas/programadas)*100</div></td><td><a  id='ttip_visprog' href='#'  onMouseOver='ttip(this);'>% Efectividad</a><div class='tooltip-seg'>(visitas_efectivas/visitas_realizadas)*100</div></td><td><a  id='ttip_visprog' href='#'  onMouseOver='ttip(this);'>PRESUPUESTO.</a><div class='tooltip-seg'>PRESUPUESTO.</div></td><td><a  id='ttip_visprog' href='#'  onMouseOver='ttip(this);'>T. Ventas Ped.</a><div class='tooltip-seg'>T. Ventas Ped.</div></td><td><a  id='ttip_visprog' href='#'  onMouseOver='ttip(this);'>VTA PROYECTADA</a><div class='tooltip-seg'>VTA PROYECTADA</div></td><td><a  id='ttip_visprog' href='#'  onMouseOver='ttip(this);'>FACTURAS</a><div class='tooltip-seg'>FACTURAS</div></td><td><a  id='ttip_visprog' href='#'  onMouseOver='ttip(this);'>Devoluciones Buenas</a><div class='tooltip-seg'>Devoluciones Buenas</div></td><td><a  id='ttip_visprog' href='#'  onMouseOver='ttip(this);'>% Dev Buenas</a><div class='tooltip-seg'>(devoluciones_buenas*100)/T.ventas.Fact</div></td><td><a  id='ttip_visprog' href='#'  onMouseOver='ttip(this);'>AVERIAS</a><div class='tooltip-seg'>AVERIAS</div></td><td><a  id='ttip_visprog' href='#'  onMouseOver='ttip(this);'>% AVERIAS</a><div class='tooltip-seg'>(averias*100)/T.ventas.Fact</div></td><td><a  id='ttip_visprog' href='#'  onMouseOver='ttip(this);'>Drop Size</a><div class='tooltip-seg'>Venta Neta Fac/facturas</div></td><td><a  id='ttip_visprog' href='#'  onMouseOver='ttip(this);'>PROM FACTS DIA</a><div class='tooltip-seg'>facturas/dias_habiles_rangofecha</div></td><td><a  id='ttip_visprog' href='#'  onMouseOver='ttip(this);'>Skus</a><div class='tooltip-seg'>facturas/cantidad prod tipo normal vendidos rango fecha</div></td><td><a  id='ttip_visprog' href='#'  onMouseOver='ttip(this);'>REF X CLIE</a><div class='tooltip-seg'>REF X CLIE</div></td><td><a  id='ttip_visprog' href='#'  onMouseOver='ttip(this);'>FREC COMP</a><div class='tooltip-seg'>FREC COMP</div></td><td><a  id='ttip_visprog' href='#'  onMouseOver='ttip(this);'>FREC COMP EFEC</a><div class='tooltip-seg'>FREC COMP EFEC</div></td><td><a  id='ttip_visprog' href='#'  onMouseOver='ttip(this);'>CLIENT. VISITADOS.</a><div class='tooltip-seg'>CLIENT. VISITADOS.</div></td><td><a  id='ttip_visprog' href='#'  onMouseOver='ttip(this);'>CLIENT. EFECTIVOS.</a><div class='tooltip-seg'>CLIENT. EFECTIVOS.</div></td><td><a  id='ttip_visprog' href='#'  onMouseOver='ttip(this);'>Venta Neta Fac</a><div class='tooltip-seg'>Venta Neta Fac</div></td><td><a  id='ttip_visprog' href='#'  onMouseOver='ttip(this);'>Vta proyectada</a><div class='tooltip-seg'>Vta proyectada</div></td><td><a  id='ttip_visprog' href='#'  onMouseOver='ttip(this);'>Cumplimineto</a><div class='tooltip-seg'>(venta_neta_fac/presupuesto)*100</div></td><td><a  id='ttip_visprog' href='#'  onMouseOver='ttip(this);'>Cumpl. proyect</a><div class='tooltip-seg'>(vta_proyectada/presupuesto)*100;</div></td></tr><tr><td>14 - IBAGUE</td><td>10578303 - DISTRIPUNTO DEL SUR CR S.A.S</td><td x:num >14305</td><td>14305 - TELEVENDEDOR GARZON - 3104781740</td><td x:num >182</td><td x:num >226</td><td x:num >1.60</td><td x:num >697</td><td x:num >627</td><td x:num >8</td><td x:num >307</td><td x:num >89.956958393113</td><td x:num >48.96331738437</td><td x:num >18000000.00</td><td x:num >13884380.11</td><td x:num >15695386.211304</td><td x:num >320</td><td x:num >912766.44</td><td x:num >6.5740525163424</td><td x:num >288710.23</td><td x:num >2.0793886922763</td><td x:num >43354.17221875</td><td x:num >13.913043478261</td><td x:num >3.459375</td><td x:num >4.3892215568862</td><td x:num >0.45133991537377</td><td x:num >1.1365079365079</td><td x:num >315</td><td x:num >167</td><td x:num >13873335.11</td><td x:num >15682900.55913</td><td x:num >77.074083944444</td><td x:num >87.127225328502</td></tr><tr><td>14 - IBAGUE</td><td>10578303 - DISTRIPUNTO DEL SUR CR S.A.S</td><td x:num >14313</td><td>14313 - TELEVENDEDOR PITALITO 3113315256</td><td x:num >127</td><td x:num >160</td><td x:num >1.34</td><td x:num >499</td><td x:num >452</td><td x:num >14</td><td x:num >268</td><td x:num >90.581162324649</td><td x:num >59.29203539823</td><td x:num >45000000.00</td><td x:num >32889195.74</td><td x:num >37179090.836522</td><td x:num >287</td><td x:num >462931.39</td><td x:num >1.4075485264511</td><td x:num >454029.92</td><td x:num >1.3804834985606</td><td x:num >114349.55501742</td><td x:num >12.478260869565</td><td x:num >4.4843205574913</td><td x:num >5.0923076923077</td><td x:num >0.55945419103314</td><td x:num >1.1702127659574</td><td x:num >282</td><td x:num >130</td><td x:num >32818322.29</td><td x:num >37098973.023478</td><td x:num >72.929605088889</td><td x:num >82.442162274396</td></tr><tr><td>14 - IBAGUE</td><td>10578303 - DISTRIPUNTO DEL SUR CR S.A.S</td><td x:num >14314</td><td>14314 - TELEVENDEDORA FLORENCIA</td><td x:num >87</td><td x:num >114</td><td x:num >1.37</td><td x:num >343</td><td x:num >278</td><td x:num >12</td><td x:num >140</td><td x:num >81.049562682216</td><td x:num >50.359712230216</td><td x:num >16000000.00</td><td x:num >9932289.39</td><td x:num >11227805.397391</td><td x:num >155</td><td x:num >364813.08</td><td x:num >3.6730009132366</td><td x:num >117472.55</td><td x:num >1.182733863134</td><td x:num >64057.738</td><td x:num >6.7391304347826</td><td x:num >3.5548387096774</td><td x:num >4.0123456790123</td><td x:num >0.44797687861272</td><td x:num >1.1533333333333</td><td x:num >150</td><td x:num >81</td><td x:num >9928949.39</td><td x:num >11224029.745217</td><td x:num >62.0559336875</td><td x:num >70.150185907609</td></tr><tr><td>14 - IBAGUE</td><td>10578303 - DISTRIPUNTO DEL SUR CR S.A.S</td><td x:num >14308</td><td>14308 - JHON FREDY ALVAREZ 3112000400</td><td x:num >432</td><td x:num >432</td><td x:num >1.08</td><td x:num >1716</td><td x:num >1698</td><td x:num >40</td><td x:num >1223</td><td x:num >98.951048951049</td><td x:num >72.025912838634</td><td x:num >153000000.00</td><td x:num >128917589.51</td><td x:num >145732927.27217</td><td x:num >1262</td><td x:num >1405714.35</td><td x:num >1.0903976372371</td><td x:num >1429342.46</td><td x:num >1.1087257103028</td><td x:num >101856.64248019</td><td x:num >54.869565217391</td><td x:num >4.5633914421553</td><td x:num >6.4080188679245</td><td x:num >0.71908831908832</td><td x:num >1.1784298176051</td><td x:num >1261</td><td x:num >424</td><td x:num >128543082.81</td><td x:num >145309571.87217</td><td x:num >84.015086803922</td><td x:num >94.973576387042</td></tr><tr><td>14 - IBAGUE</td><td>10578303 - DISTRIPUNTO DEL SUR CR S.A.S</td><td x:num >14306</td><td>14306 - GUILLERMO MUÑOZ 3184369450</td><td x:num >406</td><td x:num >406</td><td x:num >1.09</td><td x:num >1522</td><td x:num >789</td><td x:num >335</td><td x:num >789</td><td x:num >51.839684625493</td><td x:num >100</td><td x:num >320000000.00</td><td x:num >245852637.55</td><td x:num >277920372.88261</td><td x:num >1057</td><td x:num >3292716.63</td><td x:num >1.3393049848124</td><td x:num >2414235.88</td><td x:num >0.98198494189798</td><td x:num >227681.76859981</td><td x:num >45.95652173913</td><td x:num >5.3945127719962</td><td x:num >7.440203562341</td><td x:num >0.52274975272008</td><td x:num >1.1923076923077</td><td x:num >1040</td><td x:num >393</td><td x:num >240659629.41</td><td x:num >272050015.85478</td><td x:num >75.206134190625</td><td x:num >85.015629954619</td></tr><tr><td>14 - IBAGUE</td><td>10578303 - DISTRIPUNTO DEL SUR CR S.A.S</td><td x:num >14304</td><td>14304 - NYNY JOHANA QUINTERO BOLAÑOS</td><td x:num >410</td><td x:num >435</td><td x:num >1.29</td><td x:num >1660</td><td x:num >1640</td><td x:num >23</td><td x:num >1302</td><td x:num >98.795180722892</td><td x:num >79.390243902439</td><td x:num >240000000.00</td><td x:num >204616017.62</td><td x:num >231305063.39652</td><td x:num >1321</td><td x:num >3187629.8</td><td x:num >1.557859368527</td><td x:num >4731903.34</td><td x:num >2.312577184836</td><td x:num >153885.48861469</td><td x:num >57.434782608696</td><td x:num >6.3830431491294</td><td x:num >9.9734299516908</td><td x:num >0.7895995218171</td><td x:num >1.2505712109673</td><td x:num >1313</td><td x:num >414</td><td x:num >203282730.46</td><td x:num >229797869.21565</td><td x:num >84.701137691667</td><td x:num >95.749112173188</td></tr><tr><td>14 - IBAGUE</td><td>10578303 - DISTRIPUNTO DEL SUR CR S.A.S</td><td x:num >14312</td><td>14312 - YENNY ALEXA BARRERA RIOS</td><td x:num >407</td><td x:num >434</td><td x:num >1.43</td><td x:num >1560</td><td x:num >1354</td><td x:num >26</td><td x:num >1089</td><td x:num >86.794871794872</td><td x:num >80.428360413589</td><td x:num >230000000.00</td><td x:num >202887788.01</td><td x:num >229351412.53304</td><td x:num >1122</td><td x:num >4550258.66</td><td x:num >2.242746448483</td><td x:num >1766144.63</td><td x:num >0.87050317188778</td><td x:num >179755.65994652</td><td x:num >48.782608695652</td><td x:num >6.0837789661319</td><td x:num >8.7185929648241</td><td x:num >0.68665850673195</td><td x:num >1.1492805755396</td><td x:num >1112</td><td x:num >398</td><td x:num >201685850.46</td><td x:num >227992700.52</td><td x:num >87.6895002</td><td x:num >99.127261095652</td></tr><tr><td>14 - IBAGUE</td><td>10578303 - DISTRIPUNTO DEL SUR CR S.A.S</td><td x:num >14309</td><td>14309 - DAVIER FERNANDO CUELLAR LOZADA</td><td x:num >355</td><td x:num >369</td><td x:num >1.05</td><td x:num >1377</td><td x:num >951</td><td x:num >194</td><td x:num >819</td><td x:num >69.063180827887</td><td x:num >86.119873817035</td><td x:num >122000000.00</td><td x:num >99419947.709999</td><td x:num >112387766.97652</td><td x:num >1035</td><td x:num >1636471.07</td><td x:num >1.6460188399751</td><td x:num >1300727.17</td><td x:num >1.3083160874256</td><td x:num >95782.010280193</td><td x:num >45</td><td x:num >5.0057971014493</td><td x:num >7.3760445682451</td><td x:num >0.612063867534</td><td x:num >1.17258382643</td><td x:num >1014</td><td x:num >359</td><td x:num >99134380.64</td><td x:num >112064952.02783</td><td x:num >81.25768904918</td><td x:num >91.856518055595</td></tr><tr><td>14 - IBAGUE</td><td>10578303 - DISTRIPUNTO DEL SUR CR S.A.S</td><td x:num >14303</td><td>14303 - MANUEL ARNOLDO ORTIZ REYES</td><td x:num >454</td><td x:num >474</td><td x:num >1.41</td><td x:num >1761</td><td x:num >1623</td><td x:num >54</td><td x:num >1167</td><td x:num >92.163543441227</td><td x:num >71.903881700555</td><td x:num >183000000.00</td><td x:num >154058320.4</td><td x:num >174152883.93043</td><td x:num >1185</td><td x:num >2843638.1</td><td x:num >1.8458192278202</td><td x:num >5641764.25000001</td><td x:num >3.6620964290352</td><td x:num >125138.45924051</td><td x:num >51.521739130435</td><td x:num >6.0869198312236</td><td x:num >8.7549019607843</td><td x:num >0.57274045432576</td><td x:num >1.3299319727891</td><td x:num >1176</td><td x:num >408</td><td x:num >148289074.2</td><td x:num >167631127.35652</td><td x:num >81.032280983607</td><td x:num >91.60170893799</td></tr><tr><td>14 - IBAGUE</td><td>10578303 - DISTRIPUNTO DEL SUR CR S.A.S</td><td x:num >14302</td><td>14302 - BRAIAN STIVEL  GARAVITO C </td><td x:num >407</td><td x:num >416</td><td x:num >1.42</td><td x:num >1580</td><td x:num >1384</td><td x:num >7</td><td x:num >1132</td><td x:num >87.594936708861</td><td x:num >81.791907514451</td><td x:num >175000000.00</td><td x:num >142323211.63</td><td x:num >160887108.79913</td><td x:num >1153</td><td x:num >2873537.72</td><td x:num >2.0190225382704</td><td x:num >2608435.36</td><td x:num >1.8327547067875</td><td x:num >122862.98473547</td><td x:num >50.130434782609</td><td x:num >5.7016478751084</td><td x:num >8.109375</td><td x:num >0.72744479495268</td><td x:num >1.2336860670194</td><td x:num >1134</td><td x:num >384</td><td x:num >141661021.4</td><td x:num >160138545.93043</td><td x:num >80.949155085714</td><td x:num >91.507740531677</td></tr><tr><td>14 - IBAGUE</td><td>10578303 - DISTRIPUNTO DEL SUR CR S.A.S</td><td x:num >14310</td><td>14310 - PUNTO VENTA </td><td x:num >1</td><td x:num >1</td><td x:num >1.00</td><td x:num >3</td><td x:num >3</td><td x:num >12</td><td x:num >3</td><td x:num >100</td><td x:num >100</td><td x:num >40768981.00</td><td x:num >34434199</td><td x:num >38925616.26087</td><td x:num >14</td><td></td><td x:num >0</td><td></td><td x:num >0</td><td x:num >2373615.6428571</td><td x:num >0.60869565217391</td><td x:num >19.714285714286</td><td x:num >59</td><td x:num >1</td><td x:num >1.0714285714286</td><td x:num >14</td><td x:num >1</td><td x:num >33230619</td><td x:num >37565047.565217</td><td x:num >81.509564833126</td><td x:num >92.141247202665</td></tr><tr><td>14 - IBAGUE</td><td>10578303 - DISTRIPUNTO DEL SUR CR S.A.S</td><td x:num >14301</td><td>14301 - EDUAR FABIAN PERDOMO MEDINA</td><td x:num >314</td><td x:num >390</td><td x:num >1.41</td><td x:num >1319</td><td x:num >1073</td><td x:num >122</td><td x:num >755</td><td x:num >81.349507202426</td><td x:num >70.363466915191</td><td x:num >196000000.00</td><td x:num >177762632.55</td><td x:num >200949062.88261</td><td x:num >971</td><td x:num >1852690.29</td><td x:num >1.0422270774365</td><td x:num >5184635.29000001</td><td x:num >2.9166058218348</td><td x:num >182648.63805355</td><td x:num >42.217391304348</td><td x:num >7.0782698249228</td><td x:num >9.3391812865497</td><td x:num >0.62044728434505</td><td x:num >1.4840182648402</td><td x:num >876</td><td x:num >342</td><td x:num >177351827.55</td><td x:num >200484674.62174</td><td x:num >90.48562630102</td><td x:num >102.28809929681</td></tr></table></body></html>
