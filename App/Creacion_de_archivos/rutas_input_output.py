@@ -6,7 +6,8 @@ def enrouting() -> dict[str]:
     print('ruta actual obtenida: ', directorio_actual)
 
 # Establecer la ruta de entrada (input) y salida (output)
-    ruta_main = os.path.join(directorio_actual, 'liderApp-desktop')
+    ruta_main = os.path.join(directorio_actual, 'App\liderApp-desktop')
+    print(ruta_main)
     ruta_input = os.path.join(ruta_main, 'archivos_input')
     ruta_output = os.path.join(ruta_main, 'archivos_output')
 
@@ -47,8 +48,8 @@ def enrouting() -> dict[str]:
         print('ruta de entrada: ', archivo_input)
         print('ruta de salida: ', archivo_output)
 
-    rutas: dict[str] = {'archivo input': archivo_input, 'archivo output': archivo_output, 'ruta input': ruta_input, 'ruta output': ruta_output}
+        rutas: dict[str] = {'archivo input': archivo_input, 'archivo output': archivo_output, 'ruta input': ruta_input, 'ruta output': ruta_output}
 
-    return rutas
+        return rutas
 
 
