@@ -4,7 +4,7 @@ import pandas as pd
 class PestanaExcel:
 
 
-    def crear_df(argumentos):
+    def importar_df(argumentos):
         path = argumentos['Path']
         archive = argumentos['File1']
         sheet = argumentos['Sheet1']
@@ -23,15 +23,14 @@ class PestanaExcel:
         return datos
 
 
-    def seleccion_datos( rangos:list, argumentos:dict[str,str], funcion = crear_df ):
+    def seleccion_datos( rangos:list, argumentos:dict[str,str], funcion = importar_df ):
         
         rif:int = rangos[0]     #rif = rango inicial filas
         rff:int = rangos[1]     #rff = rango final filas
         ric:int = rangos[2]     #ric = rango inicial columnas
         rfc:int = rangos[3]     #rfc = rango final columnas
         
-        columnas = ['Vendedor', 'Producto', 'Unidades', 'Impactados', 'Rutero', '% Efectivo', '$ Venta', 'Empresa']
-
+        
         parametros: dict[str,str] = {
             'Path': argumentos['Path'],
             'File1': argumentos['File2'],
