@@ -1,6 +1,7 @@
 from compartidos.pestana_excel_class import PestanaExcel
 
-from Casos.caso_1 import case_one
+
+from Casos.caso1.caso_1 import case_one
 from Casos.caso_2 import case_two
 from Casos.caso_3 import case_three
 from Casos.caso_4 import case_four

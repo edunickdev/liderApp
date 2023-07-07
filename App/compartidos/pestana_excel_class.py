@@ -23,21 +23,21 @@ class PestanaExcel:
         return datos
 
 
-    def seleccion_datos( rangos:list, argumentos:dict[str,str], funcion = importar_df ):
+    def seleccion_datos( rangos:list, argumentos:dict[str,str], dataframe = importar_df ):
         
         rif:int = rangos[0]     #rif = rango inicial filas
         rff:int = rangos[1]     #rff = rango final filas
         ric:int = rangos[2]     #ric = rango inicial columnas
         rfc:int = rangos[3]     #rfc = rango final columnas
         
-        
+
         parametros: dict[str,str] = {
             'Path': argumentos['Path'],
             'File1': argumentos['File2'],
             'Sheet1': argumentos['Sheet2'],
         }
 
-        df = funcion(parametros)
+        df = dataframe(parametros)
         datos_seleccionados = df.iloc[rif:rff,ric:rfc]
         df_final = pd.DataFrame(datos_seleccionados)
         return df_final
