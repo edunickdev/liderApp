@@ -19,7 +19,7 @@ def case_one(path, file_name, sheet1, file_name2, sheet2):
     }
     
     # fijo rango seleccion en archivo input {{ distribucion.xlsx }}, extraigo en variables algunos datos reelevantes
-    lista_rangos = [1,1000,0,8]
+    lista_rangos = [1,2000,0,8]
     df_input = PestanaExcel.seleccion_datos(lista_rangos, argumentos)
     max_filas = len(df_input)
     index = range(max_filas)
@@ -27,6 +27,7 @@ def case_one(path, file_name, sheet1, file_name2, sheet2):
     # creo y agrego datos seleccionados a partir de datos extraidos de archivo input
     df = pd.DataFrame(columns=encabezados, index=index)
     df.iloc[0:max_filas,0:8] = df_input.iloc[0:max_filas,0:8]
+    del df_input
 
     # validacion y asignacion de datos columna {{ PORTAFOLIO }}
     df['PORTAFOLIO'] = df.apply(lambda row: construir_columna(

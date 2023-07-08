@@ -1,0 +1,21 @@
+encabezados = [
+    'Cod Asesor',
+    'Asesor',
+    'Cod. Cliente',
+    'Documento',
+    'Nombre',
+    'Nombre Negocio',
+    'Direccion',
+    'Barrio',
+    'Ciudad',
+    'Subcanal',
+    'Venta Neta',
+    'Devolucion',
+    'Devolucion Mala',
+    'Canal',
+    'Telefono',
+    'Drop Size',
+    '# Compras',
+    'Potencial',
+    'Estado'
+]

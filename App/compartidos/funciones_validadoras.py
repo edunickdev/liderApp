@@ -32,3 +32,39 @@ def cruzar_dataframes(set_datos: dict):
     del df
 
     return nueva_col
+
+
+def reemplazo_caracteres(lista:list , dato_errado, dato_correcto, decimas, redondear = False):
+    if redondear:        
+        nueva_lista = []
+        for item in lista:
+            nuevo_item = item.replace(dato_errado, dato_correcto)
+            nuevo_item = round(float(nuevo_item), decimas)
+            nueva_lista.append(nuevo_item)
+
+    else:
+        nueva_lista = []
+        for item in lista:
+            nuevo_item = str(item).replace(dato_errado, dato_correcto)
+            nueva_lista.append(nuevo_item)
+
+    return nueva_lista
+            
+
+def redondear(data, decimales = 0):
+    new_data = []
+    for cell in data:
+        cell = round(float(cell), decimales)
+        new_data.append(cell)
+        
+    return new_data
+
+
+def llenar_vacios(data, value):
+    nueva_data = data.fillna(value)
+    return nueva_data
+    
+
+def multi_fillna(df: pd.DataFrame):
+    nuevo_df = df.fillna(0)
+    return nuevo_df
