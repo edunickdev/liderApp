@@ -7,9 +7,7 @@ def construir_columna(row, data1, data2, response1, response2):
     return response2
 
 
-
 def cruzar_dataframes(set_datos: dict):
-
     col_1 = set_datos['col-1']
     col_2 = set_datos['col-2']
     col_3 = set_datos['col-3']
@@ -34,8 +32,8 @@ def cruzar_dataframes(set_datos: dict):
     return nueva_col
 
 
-def reemplazo_caracteres(lista:list , dato_errado, dato_correcto, decimas, redondear = False):
-    if redondear:        
+def reemplazo_caracteres(lista: list, dato_errado, dato_correcto, decimas, redondeo=False):
+    if redondeo:
         nueva_lista = []
         for item in lista:
             nuevo_item = item.replace(dato_errado, dato_correcto)
@@ -49,21 +47,21 @@ def reemplazo_caracteres(lista:list , dato_errado, dato_correcto, decimas, redon
             nueva_lista.append(nuevo_item)
 
     return nueva_lista
-            
 
-def redondear(data, decimales = 0):
+
+def redondear(data, decimales=0):
     new_data = []
     for cell in data:
         cell = round(float(cell), decimales)
         new_data.append(cell)
-        
+
     return new_data
 
 
 def llenar_vacios(data, value):
     nueva_data = data.fillna(value)
     return nueva_data
-    
+
 
 def multi_fillna(df: pd.DataFrame):
     nuevo_df = df.fillna(0)

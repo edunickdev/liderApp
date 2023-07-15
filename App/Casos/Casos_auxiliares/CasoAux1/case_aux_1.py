@@ -11,8 +11,7 @@ def case_aux_one(dataframe: pd.DataFrame):
         aggfunc='sum'
         ).reset_index()
 
-    print(df_final)
-    print(df_final.info())
     print('Termina caso auxiliar 1')
+
     return df_final
 

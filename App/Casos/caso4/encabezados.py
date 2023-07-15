@@ -1,0 +1,18 @@
+encabezados = [
+    'Articulo',
+    'Nombre Articulo',
+    'Cantidad',
+    'Costo',
+    'Concepto',
+    'Factura',
+    'Cod Cliente',
+    'Cliente',
+    'Cod Asesor',
+    'Asesor',
+    'Tipo Producto',
+    'vlr Devolucion',
+    '% IVA',
+    'Devolucion',
+    'x',
+    'Ciudad',
+]
