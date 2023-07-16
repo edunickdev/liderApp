@@ -1,13 +1,11 @@
 import pandas as pd
 
-from App.compartidos.pestana_excel_class import PestanaExcel
 from App.Casos.caso4.encabezados import encabezados
-from App.compartidos.Helpers.helpers import Plantilla_Zonas_2
-from App.compartidos.funciones_validadoras import cruzar_dataframes, redondear
+from App.compartidos.pestana_excel_class import PestanaExcel
 
 
-def case_three(path, file_name, sheet1, file_name2, sheet2):
-    print('inicio caso 3')
+def case_four(path, file_name, sheet1, file_name2, sheet2):
+    print('inicio caso 5')
 
     # creo diccionario para pasar como argumento a la funcion {{ importar_df }}, la cual se llama dentro de la
     # funcion seleccion_datos
@@ -20,36 +18,18 @@ def case_three(path, file_name, sheet1, file_name2, sheet2):
     }
 
     # fijo rango seleccion en archivo input {{ devoluciones.xlsx }}, extraigo en variables algunos datos reelevantes
-    lista_rangos = [0, 8000, 0, 14]
+    lista_rangos = [0, 21000, 0, 12]
     df_input = PestanaExcel.seleccion_datos(lista_rangos, argumentos)
+    df_input = df_input.loc[df_input['comercializador'] == 10426885].copy()
+    df_input['identificacion_2'] = df_input['identificacion'].astype(str)
+    print(df_input['identificacion_2'])
     max_filas = len(df_input)
     index = range(max_filas)
 
     # creo y agrego datos seleccionados a partir de datos extraidos de archivo input
     df = pd.DataFrame(columns=encabezados, index=index)
-    df.iloc[0:max_filas, 0:14] = df_input.iloc[0:max_filas, 0:14]
+    df.iloc[0:max_filas, 0:12] = df_input.iloc[0:max_filas, 0:12]
     del df_input
 
-    # creacion variables y almacenamiento en diccionario para pasarlo como parametro de la funcion {{
-    # cruzar_dataframes }} y crear columna [[Ciudad]]
-    parametro_busqueda = df['Cod Asesor']
-    print(type(parametro_busqueda[0]))
-    matriz_busqueda = Plantilla_Zonas_2['ZONA en Ventas x cliente']
-    matriz_resultado = Plantilla_Zonas_2['CIUDAD']
-    respuesta_generica = 'No encontrado'
-    nueva_col = df['Ciudad']
-
-    params_col_ciudad = {
-        'col-1': parametro_busqueda,
-        'col-2': matriz_busqueda,
-        'col-3': matriz_resultado,
-        'response': respuesta_generica,
-        'total_filas': max_filas,
-        'nueva_col': nueva_col
-    }
-
-    df['Ciudad'] = cruzar_dataframes(params_col_ciudad)
-    df['vlr Devolucion'] = redondear(df['vlr Devolucion'], 2)
-
-    print('caso 3 completado')
+    print('caso 5 completado')
     return df
