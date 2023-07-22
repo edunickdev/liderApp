@@ -42,11 +42,11 @@ def create(input_route):
                 dfs[pestanas[5]] = case_aux_three(dfs[pestanas[3]])
             case "BASE PARA HABEAS":
                 dfs[pestanas[6]] = case_four(input_route, main_file, pestana, input_files[4], data_sheet)
+            case "IND DE GEST":
+                pass
             # case "DATA ACTUALIZADA":
             #     dfs[pestanas[3]] = case_three(input_route, main_file, pestana, input_files[2], sheet2)
             case "VTA MAT CTE":
-                pass
-            case "IND DE GEST":
                 pass
             case _:
                 break

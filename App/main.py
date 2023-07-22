@@ -7,7 +7,7 @@ from Creacion_de_archivos.rutas_input_output import enrouting
 if __name__ == '__main__':
 
     print('programa iniciado.')
-    # creación/validación de rutas
+    # creación/validación de rutasls
     routes: dict[str] = enrouting()
 
     input_file: str = routes['archivo input']
